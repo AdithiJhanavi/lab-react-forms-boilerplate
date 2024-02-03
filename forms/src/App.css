@@ -1,0 +1,63 @@
+
+body {
+  background: rgb(152, 150, 150);
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 360px;
+  background-color: rgba(224, 42, 42, 0.66);
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.s1{
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+color: black;
+}
+
+span {
+  font-size: 14px;
+  color: rgb(249, 243, 243);
+  margin-bottom: 15px;
+}
+
+.msg { 
+  background-color: #4fc5ec;
+  padding: 15px;
+  color: rgb(0, 0, 0);
+}
+
+input {
+  background: #000000;
+  color: #f4f4f4;
+}
+
+.error {
+  border-style: solid;
+  border: 2px solid #b31a1a;
+}
+
+button {
+  background: #000000;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
